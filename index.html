@@ -31,27 +31,6 @@
       <div class="card-header">Terminal</div>
       <div class="card-body"></div>
     </div>
-    <div class="card send-message">
-      <div class="card-header">
-        <div>Contact Me</div>
-        <div class="card-actions">
-          <a href="#" onclick="closeMessageModal(event)" title="Close Modal"><i class="fa fa-times" aria-hidden="true"></i></a>
-        </div>
-      </div>
-      <div class="card-body">
-        <form onsubmit="sendEmail(event)">
-          <input type="hidden" name="source" />
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-          <label for="message">Message</label>
-          <textarea name="message" id="message" rows="5" required></textarea>
-          <button type="submit">Send</button>
-          <div class="email-status"></div>
-        </form>
-      </div>
-    </div>
     <div class="cards-container"></div>
 
     <script src="/js/ua-parser.min.js"></script>

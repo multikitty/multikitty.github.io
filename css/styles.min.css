@@ -110,7 +110,10 @@ progress::-webkit-progress-value {
 }
 
 .world-map {
-  background: url("/images/world-map.svg");
+  /* background: url("/images/world-map.svg"); */
+  background: url("/images/bg-1.jpg");
+  /* background: url("/images/bg-2.jpg"); */
+  /* background: url("/images/world-map.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -119,7 +122,7 @@ progress::-webkit-progress-value {
   bottom: 0;
   right: 0;
   left: 0;
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .send-message {
@@ -335,30 +338,30 @@ button:hover {
   left: 50%;
 }
 
-.last-known-location {
+.location {
   top: 50%;
   left: 50%;
 }
 
-.us-map-wrap {
+.finland-map-wrap {
   position: relative;
 }
 
-.us-map-wrap .us-map {
+.finland-map-wrap .finland-map {
   opacity: 0.5;
   display: block;
 }
 
-.us-map-wrap .beacon-wrap {
+.finland-map-wrap .beacon-wrap {
   position: absolute;
-  top: 57%;
-  left: 68%;
+  top: 95.5%;
+  left: 40%;
   width: 100px;
   height: 100px;
   transform: translateY(-50%) translateX(-50%);
 }
 
-.us-map-wrap .beacon-center {
+.finland-map-wrap .beacon-center {
   background: #fff;
   width: 10px;
   height: 10px;
@@ -369,7 +372,7 @@ button:hover {
   border-radius: 50%;
 }
 
-.us-map-wrap .beacon {
+.finland-map-wrap .beacon {
   border: 2px solid #fff;
   border-radius: 50%;
   animation: ping 3s infinite;

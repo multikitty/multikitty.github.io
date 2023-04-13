@@ -1,9 +1,0 @@
-{
-  "status": "Error",
-  "message": {
-    "code": "EAUTH",
-    "response": "535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 2-20020a370802000000b007424239e4casm3742765qki.117 - gsmtp",
-    "responseCode": 535,
-    "command": "AUTH PLAIN"
-  }
-}
