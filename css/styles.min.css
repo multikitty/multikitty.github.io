@@ -12,6 +12,33 @@ body {
   margin: 0;
 }
 
+.world-map {
+  background: url("/images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+  opacity: 0.2;
+}
+
+.video-background video {
+  height: 100%;
+}
+
 a {
   color: orange;
 }
@@ -107,22 +134,6 @@ progress::-webkit-progress-value {
   display: block;
   top: 100px;
   right: 50px;
-}
-
-.world-map {
-  /* background: url("/images/world-map.svg"); */
-  background: url("/images/bg-1.jpg");
-  /* background: url("/images/bg-2.jpg"); */
-  /* background: url("/images/world-map.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0.3;
 }
 
 .send-message {
